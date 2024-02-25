@@ -6,6 +6,9 @@
 body {
   padding: 60px;
 }
+form{
+  display: flex;
+}
 
 input {
   background-color: white;
@@ -61,3 +64,23 @@ h3 {
 .card img {
   width: 100%;
 }
+
+button.btnsearch {
+  margin: 10px;
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+button.btnsearch:hover {
+  background-color: rgb(97, 32, 158);
+  cursor: pointer;
+}
+
+
